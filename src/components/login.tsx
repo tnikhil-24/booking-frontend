@@ -98,9 +98,9 @@ export default class Login extends Component<{}, LoginState> {
                 Submit
               </button>
             </div>
-            <p className="forgot-password text-right">
+            {/* <p className="forgot-password text-right">
               Forgot <a href="#">password?</a>
-            </p>
+            </p> */}
             <p className="message">{this.state.message}</p>
           </form>
         </div>
